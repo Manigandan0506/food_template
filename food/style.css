@@ -1,0 +1,2119 @@
+body {
+    /* display: none; */
+}
+
+/* header-section */
+.badge-icons i {
+    background: black;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+p {
+    font-family: popins;
+}
+
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.discount-img img {
+    width: 100%;
+}
+
+
+.second-header.active {
+    border-bottom: 5px dotted red;
+    color: red;
+}
+
+.second-header:hover {
+    color: unset;
+}
+
+.second-dalivery {
+    box-shadow: -26px 15px 6px -9px #7233;
+}
+
+.header-section {
+    padding-top: 20px;
+}
+
+.Foodies {
+    color: rgb(255, 7, 48);
+}
+
+.second-nav ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+}
+
+a.nav-link {
+    color: black;
+}
+
+.Dalevery p {
+    margin-bottom: 0;
+}
+
+.offer {
+    color: white;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: contents;
+}
+
+.offer-and-order {
+    text-wrap: nowrap;
+    padding-bottom: 27px;
+}
+
+.offer p {
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 0;
+}
+
+button.offer-button.btn.text-dark.bg-light {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-contant span {
+    color: rgb(255, 11, 51)
+}
+
+.main-contant h1 {
+    font-size: 60px;
+    padding-bottom: 10%;
+}
+
+.first-section {
+    padding-top: 7%;
+}
+
+.main-contant p:nth-child(1) {
+    color: rgb(255, 0, 43);
+}
+
+.now-booking {
+    background-color: rgb(255, 0, 43);
+}
+
+.book-at-table {
+    padding: 20px 12px 10px 45px;
+    border-radius: 10px;
+    box-shadow: 3px 10px 21px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Our-Popular-Item h2 {
+    color: rgb(255, 0, 43);
+    padding-top: 10px;
+}
+
+.Our-Popular-Item {
+    padding: 7%;
+}
+
+.add-cart {
+    background-color: rgb(255, 0, 43);
+    position: relative;
+    padding: 8px 20px 8px 20px;
+}
+
+/* .add-cart::before {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 50px solid #ffffff;
+    left: -4px;
+    top: -1px;
+}
+
+.add-cart::after {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 50px solid #555;
+} */
+
+.hot-chicken {
+    text-align: center;
+    border: 1px solid gray;
+    position: relative;
+    border-radius: 31px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.hot-chicken img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button.add-cart.btn.text-white {
+    position: absolute;
+    text-wrap: nowrap;
+    left: 50%;
+    bottom: -41px;
+    clip-path: polygon(10% -22%, 100% 0%, 93% 100%, 0% 100%);
+    transform: translate(-50%, -50%);
+}
+
+.cooking {
+    padding: 5%;
+}
+
+/* aobut section */
+.about-content h3 {
+    color: rgb(255, 0, 43);
+}
+
+.About-Us {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.about-content {
+    padding-top: 12%;
+}
+
+.clean-content img {
+    width: 50px;
+    outline: 2px dotted;
+    border-radius: 50%;
+    height: 50px;
+    outline-offset: -3px;
+}
+
+.clean-content h6 {
+    margin: 0;
+    padding-right: 15px;
+}
+
+button.Watch-Our-Story.btn.text-white {
+    background-color: #ff002d;
+    /* clip-path: polygon(0 -8%, 101% -2%, 89% 100%, 0% 128%); */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 20px;
+    padding: 8px 35px 8px 25px;
+    position: relative;
+    box-shadow: rgb(255 0 0) -11px 29px 18px -18px;
+
+}
+
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
+    filter: unset;
+}
+
+button.Watch-Our-Story.btn.text-white::after {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 43px solid #fff;
+    top: -1px;
+    right: -25px;
+}
+
+button.coffee-button.btn {
+    clip-path: polygon(0 79%, 100% 79%, 90% 100%, 0% 100%);
+    /* background-color: #ff002d; */
+    clip-path: polygon(0 -1%, 100% 3%, 90% 100%, 0% 100%);
+    padding-right: 59px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tab.tab.active {
+    color: white;
+}
+
+
+
+
+div#style-4 {
+    height: 100%;
+    max-height: 420px;
+    overflow-y: scroll;
+}
+
+#style-4::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 2px solid #555555;
+}
+
+.fast-food-delivery-service h6 {
+    background-color: pink;
+    width: 53%;
+    padding: 5px 14px 5px 27px;
+    border-radius: 20px;
+}
+
+.fast-food-delivery-service {
+    background-color: #f1d6db59;
+    padding: 51px 68px;
+    /* width: 80%; */
+    border-radius: 50px;
+    /* margin-left: 10%; */
+    position: relative;
+}
+
+.fast-food-delivery-service h2 {
+    color: rgb(255, 0, 43);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+button.Get-started-now.btn.text-white {
+    padding: 8px 24px 8px 15px;
+    position: relative;
+    box-shadow: black -10px 29px 18px -18px;
+}
+
+button.Get-started-now.btn.text-white::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 40px solid #faf1f2;
+    right: -1px;
+    top: 1px;
+}
+
+
+
+.fast-food-delivery-service p {
+    padding-bottom: 15px;
+}
+
+.fast-food-delivery-service .Coffee-cup {
+    position: absolute;
+    width: 50%;
+    right: -96px;
+    bottom: -21px;
+}
+
+.price span {
+    padding-left: 50px;
+}
+
+.vagitable.salad {
+    position: relative;
+    border: 1px solid gray;
+    padding: 42px 10px 11px 17px;
+    border-radius: 20px;
+    margin-top: 40%;
+}
+
+.vagitable.salad img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vagitable-content {
+    padding-top: 50px;
+}
+
+.vagitable-content p {
+    padding-bottom: 15px;
+}
+
+.book-o i {
+    font-size: 20px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.book-o i:hover {
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.book-o {
+    padding-right: 20px;
+}
+
+.all-food {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.all-food h2 {
+    color: rgb(255, 0, 43);
+    padding-bottom: 10px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ff002d;
+}
+
+.View-All-Time {
+    background-color: rgb(255, 0, 43);
+    /* clip-path: polygon(0 -8%, 101% -2%, 89% 100%, 0% 128%); */
+    padding: 10px 40px 10px 25px;
+    position: relative;
+    box-shadow: rgb(255 0 0) -11px 29px 18px -18px;
+}
+
+.View-All-Time::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 50px solid #fff;
+    bottom: -2px;
+    right: -5px;
+}
+
+
+.View-All {
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+}
+
+.special-kombo-pack {
+    background-color: #1f1e23;
+
+}
+
+.poori {
+    background-image: url(./img/poori1.png);
+}
+
+/* special-kombo-pack */
+.Kombo-Pack h6 {
+    color: white;
+}
+
+.Kombo-Pack h2 {
+    text-transform: uppercase;
+    color: rgb(255, 0, 43);
+}
+
+.Kombo-Pack p {
+    color: white;
+}
+
+.Order-now-kombo {
+    background-color: rgb(9, 143, 61);
+    clip-path: polygon(0 -8%, 101% -2%, 89% 100%, 0% 128%);
+    padding: 5px 38px 5px 25px;
+}
+
+.discount-content h4 {
+    color: rgb(255, 0, 43);
+    padding-left: 25px;
+}
+
+.discount-content del {
+    color: white;
+    padding-right: 10px;
+}
+
+.Kombo-Pack {
+    padding: 64px 10px 51px 23px;
+}
+
+/* Get-the-app */
+.Get-the-app {
+    background-image: url(./img/get-removebg-preview.png);
+    background-repeat: no-repeat;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 360px;
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 10px;
+    clip-path: polygon(15% 4%, 100% -121%, 103% 126%, 6% 100%);
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom-left-radius: 19px;
+}
+
+.search-bar button:hover {
+    background-color: #ff3333;
+}
+
+.get-food-apps-content {
+    background-color: #fef2f2;
+    position: relative;
+    padding: 70px;
+    border-radius: 20px;
+}
+
+.moblie-img {
+    position: absolute;
+    bottom: -2px;
+    right: 55px;
+    width: 42%;
+}
+
+.get-food-apps-content h3 {
+    color: rgb(255, 0, 43);
+}
+
+.play-icon {
+    padding: 25px 0px 0px 0px;
+}
+
+.Get-the-app {
+    padding-top: 6%;
+    padding-left: 7%;
+    padding-bottom: 6%;
+}
+
+.customer-feedback {
+    background-image: url(./img/pexels-daniel-reche-718241-1556698.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.Customer-content h6 {
+    color: white;
+}
+
+.Customer-content h2 {
+    color: rgb(255, 0, 43);
+}
+
+.Customer-content p {
+    color: white;
+}
+
+.Customer-content {
+    padding: 50px 13px 15px 67px;
+}
+
+.jonathan {
+    width: 50px;
+}
+
+.jonathan i {
+    width: 50px;
+    color: rgb(255, 0, 43);
+    padding-left: 200px;
+    font-size: 50px;
+}
+
+
+.card {
+    background-color: white;
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.ajoy-details {
+    padding-right: 63px;
+}
+
+.ajoy-details h6 {
+    color: rgb(255, 0, 43);
+}
+
+.card-carousel {
+    position: relative;
+}
+
+.john {
+    /* position: absolute; */
+    top: 80px;
+}
+
+.download h2 {
+    color: rgb(255, 0, 43);
+}
+
+.download h6 {
+    color: white;
+}
+
+.user {
+    /* padding-right: 50px; */
+}
+
+/* footer-section */
+.subscribe-details h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-section {
+    padding: 40px 40px;
+}
+
+.search-bar-footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+    border-radius: 10px;
+    padding: 5px;
+    width: 400px;
+    border: 1px solid white;
+}
+
+.search-bar-footer input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    margin-right: 10px;
+    color: white;
+}
+
+.search-bar-footer button {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 10px;
+    clip-path: polygon(15% 4%, 100% -121%, 103% 126%, 6% 100%);
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom-left-radius: 19px;
+}
+
+.search-bar-footer button:hover {
+    background-color: #ff3333;
+}
+
+.second-footer {
+    color: white;
+    padding-top: 5%;
+}
+
+.About-food-details img {
+    width: 75px;
+    border-radius: 10px;
+}
+
+.About-food-details p {
+    margin-bottom: 0px;
+}
+
+.About-food-details h6 {
+    margin-bottom: 0px;
+}
+
+.Opening-time {
+    padding-left: 10px;
+}
+
+.Contact-details span {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.Link-details ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 2.59;
+}
+
+.Recent-Blog-details p {
+    font-size: 12px;
+}
+
+.Recent-Blog-details img {
+    width: 63px;
+}
+
+.recent-menu {
+    padding-left: 10px;
+}
+
+.footer-copy-right {
+    color: white;
+}
+
+.footer-logo h3 {
+    color: rgb(255, 0, 43);
+}
+
+.header-carousel-prev {
+    background-color: black;
+    position: absolute;
+    bottom: -48px;
+    right: -100px;
+    border-radius: 5px;
+}
+
+.header-carousel-next {
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    bottom: -48px;
+    left: -245px;
+    border-radius: 5px;
+}
+
+input#appt {
+    width: 121px;
+}
+
+.search-bar-nav {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+/* .search-bar-nav input {
+    background: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    margin-right: 10px;
+    clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);
+} */
+
+.search-bar-nav button {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 10px;
+    /* clip-path: polygon(15% 4%, 100% -121%, 103% 126%, 6% 100%); */
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgb(255 0 0) 3px 29px 18px -18px;
+    /* border-bottom-left-radius: 19px; */
+}
+
+.search-bar-nav button:hover {
+    background-color: #ff3333;
+}
+
+.booking-section {
+    padding-top: 10%;
+}
+
+.test {
+    position: relative;
+}
+
+.test::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 24px solid transparent;
+    border-top: 51px solid #ffffff;
+    left: -3px;
+    bottom: -11px;
+}
+
+button.explore.btn {
+    background-color: #ff002d;
+}
+
+.first-button {
+    padding-right: 20px;
+}
+
+.explore.btn {
+    position: relative;
+    box-shadow: rgb(255 0 0) 3px 29px 18px -18px;
+    padding: 9px 20px 9px 20px;
+}
+
+.explore.btn::after {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0px;
+    border-left: 19px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 47px solid #fff;
+    top: -4px;
+    right: -6px;
+}
+
+.book-table.btn {
+    position: relative;
+    box-shadow: black 3px 29px 18px -18px;
+    padding: 9px 20px 9px 30px;
+}
+
+.book-table.btn::before {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 50px solid #fff;
+    left: -5px;
+    top: -1px;
+}
+
+.now-booking.btn {
+    position: relative;
+    padding: 9px 27px 9px 27px;
+}
+
+.now-booking.btn::before {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 59px solid #fff;
+    left: -6px;
+    top: -7px;
+}
+
+.card-contant span {
+    color: rgb(255, 0, 43);
+}
+
+.card-contant i {
+    color: rgb(255, 0, 43);
+}
+
+.food-carousel {
+    padding: 50px;
+}
+
+span.carousel-control-prev-icon.food {
+    position: absolute;
+    bottom: -47px;
+    right: -24rem;
+    background-color: black;
+}
+
+span.carousel-control-next-icon.food {
+    position: absolute;
+    bottom: -48px;
+    left: -23rem;
+    background-color: rgb(255, 0, 43);
+}
+
+.vertical-button {
+    color: black;
+}
+
+.vertical {
+    text-wrap: nowrap;
+
+}
+
+.vertical-button {
+    position: relative;
+}
+
+.vertical-button::after {
+    /* position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 40px solid #fff;
+    top: 0px; */
+
+}
+
+/* tab section */
+
+.coffe-cups {
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    text-wrap: nowrap;
+}
+
+
+.tab.active {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    background: #ff264c;
+    box-shadow: rgb(255 0 0) -14px 21px 19px -18px;
+    border-radius: 10px;
+    border: none;
+}
+
+.Delivery-tab {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.coffe-cups.tab:nth-child(1) i {
+    color: brown;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.coffe-cups.tab:nth-child(2) i {
+    color: yellow;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.coffe-cups.tab:nth-child(3) i {
+    color: chocolate;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.coffe-cups.tab:nth-child(4) i {
+    color: blue;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.coffe-cups.tab:nth-child(5) i {
+    color: #ff7300;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.coffe-cups.tab:nth-child(6) i {
+    color: red;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.coffe-cups.tab:nth-child(7) i {
+    color: orange;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.coffe-cups.tab:nth-child(8) i {
+    color: rgb(201, 101, 117);
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.coffe-cups {
+    position: relative;
+    width: 60%;
+}
+
+.coffe-cups::after {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 55px solid #fff;
+    right: -1px;
+    top: 2px;
+}
+
+.horiza-tab {
+    color: black !important;
+    background-color: pink !important;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.horiza-tab.active {
+    color: white !important;
+    background-color: rgb(255, 0, 43) !important;
+}
+
+span.fa.fa-star {
+    color: red;
+}
+
+i.fa.fa-star-half-o {
+    color: red;
+}
+
+.social-icon:hover {
+    color: rgb(255, 0, 43);
+}
+
+.search-bar-first {
+    /* width: 74%; */
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0%, 88% 100%, -6% 100%);
+    border-radius: 14px 11px 35px 13px;
+    /* margin-left: -26%; */
+}
+
+.search-btn-field {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.jonathan-carousel {
+    width: 69%;
+}
+
+.book-at-table input {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+select#people {
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#style-4::-webkit-scrollbar {
+    width: 3px;
+    background-color: #979797;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+}
+
+.brands {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-carousel-prev {
+    position: absolute;
+    background-color: rgb(255, 0, 43);
+    bottom: -48px;
+    left: 10rem;
+    border-radius: 5px;
+}
+
+.footer-carousel-next {
+    position: absolute;
+    background-color: red;
+    bottom: -49px;
+    right: 18rem;
+    border-radius: 5px;
+}
+
+.jonathan img {
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:999px) {
+    .mobile-view {
+        visibility: visible;
+
+    }
+
+    ul {
+        list-style-type: none;
+
+    }
+
+    .header-section {
+        display: none;
+    }
+
+    .second-dalivery {
+        display: none;
+    }
+
+    .header-section {
+        display: none;
+    }
+
+    .second-dalivery {
+        display: none;
+    }
+
+    .main-contant h1 {
+        font-size: 35px;
+    }
+
+    .badge-icons {
+        justify-content: unset;
+
+    }
+
+    button.explore.btn {
+        text-wrap: nowrap;
+    }
+
+    .explore.btn::after {
+        position: absolute;
+        content: " ";
+        width: 0;
+        height: 0px;
+        border-left: 19px solid transparent;
+        border-right: 1px solid transparent;
+        border-bottom: 47px solid #fff;
+        top: 0px;
+        right: -6px;
+    }
+
+    .book-table.btn {
+        position: relative;
+        box-shadow: black 3px 29px 18px -18px;
+        padding: 9px 20px 9px 30px;
+        text-wrap: nowrap;
+    }
+
+    .mob-menu {
+        display: unset !important;
+        justify-content: unset !important;
+
+    }
+
+    .second-header.active {
+        border-bottom: unset;
+    }
+
+    .jonathan-carousel {
+        width: unset;
+    }
+
+    .card {
+        background-color: white;
+        width: 100%;
+        padding: unset;
+        border-radius: 10px;
+    }
+
+    .john {
+        position: unset;
+    }
+
+    .about-us-img {
+        width: 100%;
+    }
+
+
+
+
+    /* 
+    .Coffee-cup {
+        display: none;
+    } */
+
+
+
+    .hot-chicken {
+        text-align: center;
+        border: 1px solid gray;
+        position: relative;
+        border-radius: 31px;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        margin-bottom: 58px;
+    }
+
+    .nav-pills .nav-link {
+        background: 0 0;
+        border: 0;
+        border-radius: .25rem;
+        margin-bottom: 10px;
+    }
+
+    .Customer-content {
+        padding: unset;
+    }
+
+    .play-icon {
+        padding: 25px 0px 0px 0px;
+        width: 99%;
+    }
+
+    .get-food-bg {
+        background-color: #fef2f2;
+        padding: unset !important;
+        border-radius: 20px;
+    }
+
+    .share-app-link button {
+        font-size: 15px;
+    }
+
+    .share-app-link-footer button {
+        font-size: 10px;
+    }
+
+    .share-app-link-footer input {
+        font-size: 10px;
+        padding: 12px 20px;
+    }
+
+    .second-header.active {
+        border-bottom: unset;
+        color: red;
+    }
+
+    .share-app-link input {
+        font-size: 10px;
+    }
+
+    .share-app-link button {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-3%, -50%);
+        border: unset;
+        padding: 11px 12px;
+        background: red;
+        clip-path: polygon(15% 4%, 100% -121%, 103% 126%, 6% 100%);
+        border-radius: 5px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:426px) {
+    .book-table.btn::before {
+        position: absolute;
+        content: " ";
+        width: 0;
+        height: 0;
+        border-left: 0px solid transparent;
+        border-right: 18px solid transparent;
+        border-top: 50px solid #fff;
+        left: -4px;
+        top: -3px;
+
+    }
+
+    .header-carousel-next {
+        background-color: rgb(255, 0, 0);
+        position: absolute;
+        bottom: -48px;
+        left: -65px;
+        border-radius: 5px;
+    }
+
+    .get-food-mob {
+        padding: 10px;
+    }
+
+    .book-at-table {
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 3px 10px 21px 15px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        text-align: center;
+    }
+
+    .share-app-link {
+        position: relative;
+        padding: 0px 9px 0px 9px;
+    }
+
+    form {
+        padding-top: 12px;
+    }
+
+    .date-booking {
+        padding-top: 10px;
+    }
+
+    .People-booking {
+        padding-bottom: 10px;
+    }
+
+    .about-us-img {
+        width: 100%;
+    }
+
+    .Watch-btn {
+        text-align: center;
+    }
+
+    span.carousel-control-next-icon.food {
+        position: absolute;
+        bottom: 0px;
+        left: -4rem;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 0, 43);
+    }
+
+    span.carousel-control-prev-icon.food {
+        position: absolute;
+        bottom: 0px;
+        right: -7rem;
+        background-color: black;
+        transform: translate(-50%, -50%);
+    }
+
+    .fast-food-delivery-service {
+
+        background-color: #f1d6db59;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: unset;
+        position: relative;
+
+    }
+
+    .booking-section {
+        padding-top: 22%;
+        padding-left: 37px;
+        padding-right: 37px;
+    }
+
+    .fast-food-delivery-service h6 {
+        background-color: pink;
+        width: unset;
+        padding: 5px 12px 5px 12px;
+        border-radius: unset;
+        margin-top: unset;
+        font-size: 14px;
+    }
+
+    .fast-food-delivery-service p {
+        padding-bottom: 15px;
+        text-align: justify;
+    }
+
+    .get-btn {
+        text-align: center !important;
+        margin-bottom: 15px !important;
+    }
+
+    .Kombo-Pack {
+        padding: 50px 10px 50px 10px;
+    }
+
+    .View-All {
+        margin-bottom: 15px;
+    }
+
+    .clean-content h6 {
+        padding-left: 15px;
+        font-size: 15px;
+    }
+
+    button.Get-started-now.btn.text-white::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 40px solid #faf1f2;
+        right: -2px;
+        top: 2px;
+    }
+
+    .search-bar-nav button {
+        padding: 8px 6px 8px 11px;
+    }
+
+    .star-rating {
+        font-size: 6px;
+    }
+
+    .brands-img {
+        text-align: center;
+    }
+
+    .card h5 {
+        font-size: 15px;
+    }
+
+    .footer-carousel-prev {
+        bottom: -50px;
+        left: 8rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .footer-carousel-next {
+        position: absolute;
+        background-color: red;
+        border-radius: 5px;
+        transform: translate(-50%, -50%);
+        bottom: -50px;
+        right: 87px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .share-app-link-footer button {
+
+        padding: 11px 18px !important;
+    }
+
+    .cooking {
+        padding: 15px;
+        margin: 2px;
+    }
+
+    .customer-feedback {
+        padding: 10px 10px 40px 10px;
+    }
+
+    .fast-food-delivery-service .Coffee-cup {
+        position: absolute;
+        width: 40%;
+        transform: translate(23%, -23%);
+        left: 57%;
+    }
+
+    .main-contant {
+        text-align: justify;
+    }
+
+    .brands {
+        position: relative;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .header-carousel-prev {
+        background-color: black;
+        position: absolute;
+        bottom: -48px;
+        right: -5rem;
+        border-radius: 5px;
+    }
+
+    .header-carousel-next {
+        background-color: rgb(255, 0, 0);
+        position: absolute;
+        bottom: -48px;
+        left: -6rem;
+        border-radius: 5px;
+    }
+
+    .vagitable.salad {
+        position: relative;
+        border: 1px solid gray;
+        padding: 42px 10px 11px 17px;
+        border-radius: 20px;
+        margin-top: 16%;
+    }
+
+    .footer-sec {
+        padding: 20px 2px 20px 2px;
+    }
+
+    .Recent-Blog-details h6 {
+        font-size: 13px;
+
+    }
+
+    .Our-Popular-Item {
+        padding: 50px 6px 3px;
+    }
+    .about-content{
+        text-align: justify;
+    }
+
+}
+
+@media only screen and (min-width:427px) and (max-width:768px) {
+    .header-carousel-next {
+        background-color: rgb(255, 0, 0);
+        position: absolute;
+        border-radius: 5px;
+        transform: translate(-50%, -50%);
+        bottom: -35px;
+        left: -5rem;
+    }
+
+    .main-contant {
+        text-align: justify;
+    }
+
+    .header-carousel-prev {
+        background-color: black;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        left: 10rem;
+        bottom: -36px;
+    }
+
+    .book-at-table {
+        border-radius: 10px;
+        padding: 12px 12px 12px 12px;
+        text-align: center;
+        box-shadow: 3px 10px 21px 15px rgba(0, 0, 0, 0.2);
+        margin-left: 41px;
+    }
+
+    .date-booking {
+        padding-bottom: 10px;
+    }
+
+    .book-now {
+        padding-top: 15px;
+    }
+
+    .now-booking.btn {
+        position: relative;
+        padding: 9px 11px 9px 14px;
+        text-wrap: nowrap;
+    }
+
+    span.carousel-control-next-icon.food {
+        position: absolute;
+        bottom: -30px;
+        left: -7rem;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 0, 43);
+    }
+
+    span.carousel-control-prev-icon.food {
+        position: absolute;
+        bottom: -30px;
+        right: -10rem;
+        transform: translate(-50%, -50%);
+        background-color: black;
+    }
+
+    .about-us-img img {
+        width: 100%;
+
+    }
+
+    .fast-food-delivery-service h6 {
+        background-color: pink;
+        width: unset;
+        padding: 5px 53px 5px 50px;
+        border-radius: unset;
+        margin-top: unset;
+        font-size: 14px;
+    }
+
+    .fast-food-delivery-service h6 {
+        background-color: pink;
+        width: 100%;
+        padding: 5px 0px 5px 16px;
+        border-radius: unset;
+        margin-top: unset;
+        font-size: 14px;
+        text-wrap: nowrap;
+    }
+
+    .fast-food-delivery-service {
+        background-color: #f1d6db59;
+        padding: 51px 68px;
+        width: unset;
+        border-radius: 10px;
+        margin-left: unset;
+        position: relative;
+    }
+
+    .footer-carousel-next {
+        position: absolute;
+        background-color: red;
+        border-radius: 5px;
+        transform: translate(-50%, -50%);
+        bottom: -63px;
+        right: 84px;
+    }
+
+    .customer-feedback {
+        background-image: url(./img/pexels-daniel-reche-718241-1556698.jpg);
+        position: relative;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        padding-bottom: 16%;
+    }
+
+    .card {
+        background-color: white;
+        width: 100%;
+        padding: unset;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .brands {
+        position: relative;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .fast-food-delivery-service .Coffee-cup {
+        position: absolute;
+        width: 50%;
+        right: -51px;
+        bottom: -21px;
+    }
+
+    .vagitable.salad {
+        position: relative;
+        border: 1px solid gray;
+        padding: 42px 10px 11px 17px;
+        border-radius: 20px;
+        margin-top: 10%;
+    }
+
+    .booking-section {
+        padding-top: 10%;
+        width: 90%;
+    }
+
+    .brands-img-logo {
+        width: 50%;
+        text-align: center;
+    }
+
+    .footer-carousel-prev {
+        position: absolute;
+        background-color: rgb(255, 0, 43);
+        bottom: -47px;
+        left: 11rem;
+        border-radius: 5px;
+    }
+    .footer-carousel-next {
+        position: absolute;
+        background-color: red;
+        border-radius: 5px;
+        transform: translate(-50%, -50%);
+        bottom: -63px;
+        right: 9rem;
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:768px) {
+    .card-section {
+        width: 50%;
+    }
+
+    .coffe-cups {
+        position: relative;
+        width: 90%;
+    }
+
+    .fast-food-delivery-service h6 {
+        background-color: pink;
+        width: unset;
+        padding: 5px 14px 5px 27px;
+        border-radius: 20px;
+    }
+
+    button.Get-started-now.btn.text-white::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 40px solid #faf1f2;
+        right: -2px;
+        top: 2px;
+    }
+
+    .salad-tab-view {
+        width: 50%;
+    }
+
+    .price span {
+        padding-left: 24px;
+    }
+
+    .cooking-details {
+        padding: 16px;
+    }
+
+    span.fa.fa-star {
+        color: red;
+        font-size: 13px;
+    }
+
+    i.fa.fa-star-half-o {
+        color: red;
+        font-size: 12px;
+    }
+
+    .ajoy-details {
+        padding-right: 12px !important;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .customer-feedback {
+        background-image: url(./img/pexels-daniel-reche-718241-1556698.jpg);
+        position: relative;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        padding-bottom: 16%;
+        padding-top: 16%;
+    }
+
+    .brands-img-logo {
+        width: 50%;
+
+    }
+
+    .brands-img {
+        text-align: center;
+    }
+
+    /* .fast-food-delivery-service {
+        background-color: #f1d6db59;
+        padding: 51px 68px;
+        width: unset;
+        border-radius: 10px;
+        margin-left: unset;
+        position: relative;
+    } */
+    /* .fast-food-delivery-service .Coffee-cup {
+        position: absolute;
+        width: 50%;
+        transform: translate(-50%, -39%);
+        left: 22rem;
+    } */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:999px) {
+    .mobile-view {
+        display: none;
+    }
+
+    .header-section {
+        visibility: visible;
+    }
+
+    .second-dalivery {
+        visibility: visible;
+    }
+}
+@media (max-width: 1024px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: block !important;
+    }
+}
+
+
+@media only screen and (max-width:320px) {
+
+    /* .card-section {
+        padding-bottom: 62px;
+    } */
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .jonathan i {
+        width: 50px;
+        color: rgb(255, 0, 43);
+        padding-left: 150px;
+        font-size: 50px;
+    }
+
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    span.carousel-control-prev-icon.food {
+        position: absolute;
+        bottom: -30px;
+        right: -16rem;
+        transform: translate(-50%, -50%);
+        background-color: black;
+    }
+
+    span.carousel-control-next-icon.food {
+        position: absolute;
+        bottom: -30px;
+        left: -14rem;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 0, 43);
+    }
+
+    .header-carousel-next {
+        background-color: rgb(255, 0, 0);
+        position: absolute;
+        bottom: -48px;
+        left: -7rem;
+        border-radius: 5px;
+    }
+
+    .now-booking.btn {
+        position: relative;
+        text-wrap: nowrap;
+        font-size: 15px;
+        padding: 2px 11px 2px 15px;
+    }
+
+    .book-at-table {
+        padding: 20px 12px 10px 20px;
+        border-radius: 10px;
+        width: 100%;
+        box-shadow: 3px 10px 21px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .book-table.btn::before {
+        position: absolute;
+        content: " ";
+        width: 0;
+        height: 0;
+        border-left: 0px solid transparent;
+        border-right: 18px solid transparent;
+        border-top: 50px solid #fff;
+        left: -5px;
+        top: -3px;
+    }
+
+    .book-at-table h5 {
+        font-size: 13px;
+    }
+
+    .date-booking {
+        font-size: 10px
+    }
+
+    .time {
+        text-wrap: nowrap;
+    }
+
+    .People-booking {
+        font-size: 11px;
+        padding-left: 28px;
+    }
+
+    .date-booking {
+        padding: 0;
+    }
+
+    .now-booking.btn::before {
+        position: absolute;
+        content: " ";
+        width: 0;
+        height: 0;
+        border-left: 0px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 36px solid #ffffff;
+        left: -6px;
+        top: -1px;
+    }
+
+    .card-section {
+        width: 50%;
+        padding: 25px;
+    }
+
+    span.carousel-control-prev-icon.food {
+        position: absolute;
+        bottom: -30px;
+        right: -16rem;
+        transform: translate(-50%, -50%);
+        background-color: black;
+    }
+
+    span.carousel-control-next-icon.food {
+        position: absolute;
+        bottom: -30px;
+        left: -13rem;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 0, 43);
+    }
+
+    .fast-food-delivery-service .Coffee-cup {
+        position: absolute;
+        width: 50%;
+        bottom: -6rem;
+        left: 80%;
+        transform: translate(-50%, -50%);
+    }
+
+    button.Get-started-now.btn.text-white::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 44px solid #faf1f2;
+        right: -3px;
+        top: -2px;
+    }
+
+    .salad-tab-view {
+        width: 50%;
+    }
+
+    .coffe-cups {
+        position: relative;
+        width: 98%;
+    }
+
+    .fast-food-delivery-service h6 {
+        background-color: pink;
+        width: unset;
+        padding: 5px 14px 5px 27px;
+        border-radius: unset;
+    }
+
+    .fast-food-delivery-service {
+        background-color: #f1d6db59;
+        padding: 51px 68px;
+        width: unset;
+        border-radius: 10px;
+        margin-left: unset;
+        position: relative;
+    }
+
+    .card {
+        background-color: white;
+        width: 100%;
+        padding: unset;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .card span {
+        font-size: 11px;
+    }
+
+    i.fa.fa-star-half-o {
+        font-size: 11px;
+    }
+
+    .footer-carousel-next {
+        position: absolute;
+        background-color: red;
+        bottom: 23px;
+        right: 7rem;
+        border-radius: 5px;
+        transform: translate(-50%, -50%);
+    }
+
+    .footer-carousel-prev {
+        position: absolute;
+        background-color: rgb(255, 0, 43);
+        bottom: 22px;
+        left: 10rem;
+        border-radius: 5px;
+        transform: translate(-50%, -50%);
+    }
+
+    .customer-feedback {
+        background-image: url(./img/pexels-daniel-reche-718241-1556698.jpg);
+        position: relative;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        padding: 3%;
+    }
+
+    .brands-img-logo {
+        width: 50%;
+    }
+
+    .brands-img {
+        text-align: center;
+    }
+
+    .Opening-time {
+        padding-left: 10px;
+        text-wrap: nowrap;
+    }
+
+    .Link-details ul {
+        list-style-type: none;
+        padding: 0;
+        line-height: 1.9;
+    }
+
+    .Recent-details h6 {
+        font-size: 12px;
+
+    }
+
+}
+
+@media only screen and (min-width:425px) and (max-width:600px) {
+    .price span {
+        padding-left: 51%;
+    }
+}
+
+
+
+
+
+
+button.Order-now-kombo.btn.text-white {
+    text-wrap: nowrap;
+}
+
+.get-food-bg {
+    background-color: #fef2f2;
+    padding: 0px 0px 0px 60px;
+    border-radius: 20px;
+
+}
+
+.share-app-link {
+    position: relative;
+}
+
+.share-app-link button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-3%, -50%);
+    border: unset;
+    padding: 11px 12px;
+    background: red;
+    clip-path: polygon(15% 4%, 100% -121%, 103% 126%, 6% 100%);
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.share-app-link input {
+    width: 100%;
+    border: unset;
+    padding: 16px 15px;
+}
+
+.share-app-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.share-app-link-footer {
+    position: relative;
+}
+
+.share-app-link-footer button {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-3%, -50%);
+    border: unset;
+    padding: 11px 32px;
+    background: red;
+    clip-path: polygon(15% 4%, 100% -121%, 103% 126%, 6% 100%);
+    border-radius: 5px;
+}
+
+.share-app-link-footer input {
+    width: 100%;
+    border: unset;
+    padding: 16px 15px;
+    background-color: #212529;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
